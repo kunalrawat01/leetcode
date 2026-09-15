@@ -8,7 +8,7 @@ class Solution {
                 count++;
              }
              if(right - left + 1 == k){
-                    max = Math.max(max,count);
+                 max = Math.max(max,count);
              if(isVowel(s.charAt(left))){
                 count--;
              }
@@ -17,7 +17,7 @@ class Solution {
         }
         return max;
     }
-        public boolean isVowel(char ch){
-            return ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u';
-        }
+    public boolean isVowel(char ch){
+        return ch == 'a'||ch == 'e'||ch == 'i'||ch == 'o'||ch == 'u';
     }
+}
